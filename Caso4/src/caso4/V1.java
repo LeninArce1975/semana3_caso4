@@ -25,6 +25,7 @@ public class V1 extends JFrame implements ActionListener {
 	private JButton btnNewButton;
 	private JScrollPane scrollPane;
 	private JTextArea txtS;
+	private JButton btnNewButton_1;
 
 	/**
 	 * Launch the application.
@@ -91,6 +92,11 @@ public class V1 extends JFrame implements ActionListener {
 				txtS.setText("Verificando commit");
 				scrollPane.setViewportView(txtS);
 			}
+		}
+		{
+			btnNewButton_1 = new JButton("Borrar");
+			btnNewButton_1.setBounds(253, 112, 85, 21);
+			contentPane.add(btnNewButton_1);
 		}
 	}
 
